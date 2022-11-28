@@ -1,11 +1,17 @@
+/* PROYECTO IOT
+ * Medicion de temperatura y Humedad, envia los datos a una 
+ * base de datos anclada a una pagina web a nivel localhost
+ *
+ */
+
 #include <DHT.h>
 #include <DHT_U.h>
 #include <ESP8266WiFi.h>
 
 #define LED1 D2 //LED WIFI
 #define LED2 D3 //LED SABER QUE FUNCIONA
-String ssid = "iPhone Héctor";
-String password = "hector123";
+String ssid = "CAMBIAR POR SSID";
+String password = "CAMBIAR POR CONTRASEÑA";
 
 
 String host = "172.20.10.5";
