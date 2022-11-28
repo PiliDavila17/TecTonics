@@ -1,7 +1,10 @@
+// Codigo que se utilizó para comprobar la conexion del NodeMCU 
+// tomado del manual NodeMCU
+
 #include <ESP8266WiFi.h>
 
-const char* ssid = "iPhone de Pili";
-const char* password = "010117mklp";
+const char* ssid = "CAMBIAR POR EL SSID";
+const char* password = "CAMBIAR POR LA CONTRASEÑA";
 
 
 int led = 0; //
